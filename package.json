@@ -1,0 +1,23 @@
+{
+  "name": "monthexam",
+  "version": "1.0.0",
+  "description": "monthExam",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s763397709/monthExam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s763397709/monthExam/issues"
+  },
+  "homepage": "https://github.com/s763397709/monthExam#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-webserver": "^0.9.1"
+  }
+}
