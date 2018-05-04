@@ -6,10 +6,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="scss/swiper-3.4.2.min.css">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+    <link rel="stylesheet" href="scss/style.css">
 </head>
 
 <body>
-    hello
+    <div class='header'>
+        <i class="icon iconfont icon-xiangzuo"></i><span>居家</span><i class="icon iconfont icon-fangdajing"></i>
+    </div>
+    <div class="wrap swiper-container">
+        <div class="page"></div>
+        <ul class='swiper-wrapper'>
+            <li class='swiper-slide'>
+                <div class="main">
+                    <script type="text/x-handlebars-template" id='tpl'>
+                        {{#each this}}
+                        <dl>
+                            <dt><img src="imgs/{{imgsrc}}.jpg" alt=""><h4>{{tit}}</h4></dt>
+                            <dd>
+                                <h3>{{title}}</h3>
+                                <p>{{price}}</p>
+                            </dd>
+                        </dl>
+                        {{/each}}
+                    </script>
+                </div>
+            </li>
+            <li class='swiper-slide'>
+                <div class="main">
+                    <script type="text/x-handlebars-template" class='tpl2'>
+                        {{#each this}}
+                        <dl>
+                            <dt><img src="imgs/{{imgsrc}}.jpg" alt=""><h4>{{tit}}</h4></dt>
+                            <dd>
+                                <h3>{{title}}</h3>
+                                <p>{{price}}</p>
+                            </dd>
+                        </dl>
+                        {{/each}}
+                    </script>
+                </div>
+            </li>
+            <li class='swiper-slide'>
+                <div class="main">
+                    <script type="text/x-handlebars-template" class='tpl2'>
+                        {{#each this}}
+                        <dl>
+                            <dt><img src="imgs/{{imgsrc}}.jpg" alt=""><h4>{{tit}}</h4></dt>
+                            <dd>
+                                <h3>{{title}}</h3>
+                                <p>{{price}}</p>
+                            </dd>
+                        </dl>
+                        {{/each}}
+                    </script>
+                </div>
+            </li>
+            <li class='swiper-slide'>
+                <div class="main">
+                    <script type="text/x-handlebars-template" class='tpl2'>
+                        {{#each this}}
+                        <dl>
+                            <dt><img src="imgs/{{imgsrc}}.jpg" alt=""><h4>{{tit}}</h4></dt>
+                            <dd>
+                                <h3>{{title}}</h3>
+                                <p>{{price}}</p>
+                            </dd>
+                        </dl>
+                        {{/each}}
+                    </script>
+                </div>
+            </li>
+            <li class='swiper-slide'>
+                <div class="main">
+                    <script type="text/x-handlebars-template" class='tpl2'>
+                        {{#each this}}
+                        <dl>
+                            <dt><img src="imgs/{{imgsrc}}.jpg" alt=""><h4>{{tit}}</h4></dt>
+                            <dd>
+                                <h3>{{title}}</h3>
+                                <p>{{price}}</p>
+                            </dd>
+                        </dl>
+                        {{/each}}
+                    </script>
+                </div>
+            </li>
+            <li class='swiper-slide'>
+                <div class="main">
+                    <script type="text/x-handlebars-template" class='tpl2'>
+                        {{#each this}}
+                        <dl>
+                            <dt><img src="imgs/{{imgsrc}}.jpg" alt=""><h4>{{tit}}</h4></dt>
+                            <dd>
+                                <h3>{{title}}</h3>
+                                <p>{{price}}</p>
+                            </dd>
+                        </dl>
+                        {{/each}}
+                    </script>
+                </div>
+            </li>
+        </ul>
+    </div>
 </body>
+<script src="libs/require.js" data-main="app/main"></script>
 
 </html>

@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+}
+
+.header {
+  width: 100%;
+  height: .6rem;
+  line-height: .6rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrap {
+  width: 100%;
+  height: auto;
+}
+
+.wrap ul {
+  width: 100%;
+  height: 100%;
+}
+
+.wrap ul li {
+  width: 100%;
+  height: 100%;
+}
+
+.page {
+  width: 100%;
+  height: .44rem;
+  line-height: .44rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.swiper-pagination-bullet {
+  flex: 1;
+  font-size: 14px;
+  color: #000;
+  background: none;
+  opacity: 1;
+  border-radius: 0;
+  width: 100%;
+  height: 0.75rem;
+}
+
+.main {
+  width: 100%;
+  height: auto;
+}
+
+.main dl {
+  width: 50%;
+  height: 5.4rem;
+  float: left;
+}
+
+.main dl dt {
+  width: 100%;
+  height: 3.6rem;
+  background: #F1ECE2;
+}
+
+.main dl dt img {
+  width: 100%;
+  height: 85%;
+}
+
+.main dl dt h4 {
+  width: 100%;
+  line-height: .4rem;
+  font-size: 12px;
+  color: #B8A888;
+  text-indent: 1em;
+}
+
+.main dl dd {
+  line-height: .6rem;
+}
+
+.main dl dd h3 {
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.main dl dd p {
+  color: #B5292E;
+}

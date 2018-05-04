@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 var server = require('gulp-webserver')
-var data = require('src/data.json')
+var data = require('./src/data.json')
 gulp.task('server', function() {
     gulp.src('src')
         .pipe(server({
